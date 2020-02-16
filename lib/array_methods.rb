@@ -5,6 +5,7 @@ while array[counter] do
     return counter
   else
     counter+=1
+  end
 end
 end
 
