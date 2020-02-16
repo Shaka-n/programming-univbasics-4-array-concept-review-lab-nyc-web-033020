@@ -10,16 +10,16 @@ end
 end
 
 def find_max_value(array)
-  biggest = 0
+  max = 0
   counter = 0 
   while array[counter] do
-    if array[counter]>biggest
-      biggest = array[counter]
+    if array[counter]>max
+      max = array[counter]
       counter+=1 
     else
       counter+=1 
     end
-    return biggest
+  return max
   end
 end
 
